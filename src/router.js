@@ -1,6 +1,9 @@
-import { Outlet, createBrowserRouter } from "react-router-dom";
-import Root from "./Root";
+import { createBrowserRouter } from "react-router-dom";
 
+import Root from "./Root";
+import Hello from "./pages/Hello";
+import About from "./pages/About";
+import NotFound404 from "./pages/NotFound_404";
 
 const router = createBrowserRouter([
     {
@@ -8,10 +11,16 @@ const router = createBrowserRouter([
         element: <Root />,
         Children: [
             {
-                path: "introduce"
+                path: "hello",
+                element: <Hello />,
+            },
+            {
+                path: "about",
+                element: <About />,
             }
-        ]
-    }
+        ],
+        errorElement: <NotFound404 />,
+    },
 ])
 
 export default router;
