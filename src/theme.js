@@ -6,24 +6,37 @@ export const themeType = {
 
 export const darkTheme = {
     header: {
-        bgColor: "black",
+        bgColor: "#1e1e1e",
         textColor: "white",
     },
     navi: {
-        bgColor: "rgb(120, 120, 120)",
-        textColor: "black",
+        bgColor: "rgba(175,175,175,0.5)",
+        textColor: "#1e1e1e",
         hover: {
             bgColor: "rgb(15, 15, 15)",
             textColor: "rgb(225, 225, 225)",
         },
     },
     body: {
-        bgColor: "black",
-        textColor: "white",
+        side: {
+            bgColor: "#1e1e1e",
+            textColor: "white",
+        },
+        page: {
+            bgColor: "rgb(175,175,175)",
+            textColor: "white",
+            card: {
+                bgColor: "#1e1e1e",
+                textColor: "white",
+            }
+        }
     },
     footer: {
-        bgColor: "black",
+        bgColor: "#1e1e1e",
         textColor: "white",
+    },
+    icon: {
+        bgColor: "white",
     }
 }
 
@@ -41,11 +54,24 @@ export const lightTheme = {
         }
     },
     body: {
-        bgColor: "rgb(157, 208, 235)",
-        textColor: "black",
+        side: {
+            bgColor: "rgb(157, 208, 235)",
+            textColor: "black",
+        },
+        page: {
+            bgColor: "rgb(255, 255, 240)",
+            textColor: "black",
+            card: {
+                bgColor: "white",
+                textColor: "white",
+            }
+        }
     },
     footer: {
         bgColor: "rgb(157, 208, 235)",
         textColor: "black",
+    },
+    icon: {
+        bgColor: "black",
     }
 }

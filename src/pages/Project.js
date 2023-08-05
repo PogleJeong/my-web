@@ -4,12 +4,12 @@ const Wrapper = styled.div`
 
 `
 
-function Skill() {
+function Project() {
     return (
         <Wrapper>
-            <h1>Skill</h1>
+            <h1>Project</h1>
         </Wrapper>
     )
 }
 
-export default Skill;
+export default Project;

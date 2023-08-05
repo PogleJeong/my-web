@@ -32,12 +32,12 @@ export const FlexVerticalCenter = styled(FlexVertical)`
     align-items: center;
 `
 
-export const FlexVerticalLeftCenter = styled(FlexVertical)`
-    justify-content: center;
-    align-items: start;
+export const FlexVerticalTopCenter = styled(FlexVertical)`
+    justify-content: start;
+    align-items: center;
 `
 
-export const FlexVerticalRightCenter = styled(FlexVertical)`
-    justify-content: center;
-    align-items: end;
+export const FlexVerticalBottomCenter = styled(FlexVertical)`
+    justify-content: end;
+    align-items: center;
 `

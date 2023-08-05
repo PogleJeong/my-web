@@ -4,7 +4,7 @@ import { FlexHorizonCenter } from "../common/style";
 import { darkTheme, lightTheme } from "../theme";
 
 const Wrapper = styled(FlexHorizonCenter)`
-    height: 20px;
+    height: 40px;
     font-size: 0.7em;
     font-weight: bold;
     color: ${(props)=>props.theme === darkTheme ? darkTheme.footer.textColor : lightTheme.footer.textColor};
